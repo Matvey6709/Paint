@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sheet_background"
+    android:id="@+id/activity_color"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:focusable="true"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/circle_g"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_circle_1" />
+
+        <ImageButton
+            android:id="@+id/circle_y"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_circle_2" />
+
+        <ImageButton
+            android:id="@+id/circle_b"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_circle_3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:focusable="true">
+
+        <ImageButton
+            android:id="@+id/circle_r"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_circle_5" />
+
+        <ImageButton
+            android:id="@+id/circle_bl"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_circle_6" />
+
+        <ImageButton
+            android:id="@+id/circle_pur"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:src="@drawable/ic_baseline_circle_7" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/fields"
+        android:text="Выбрать"
+        android:textColor="@color/white"
+        android:layout_marginBottom="10dp"/>
+
+
+</LinearLayout>
